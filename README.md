@@ -30,7 +30,3 @@ python3 mbexp.py -ca model-type PE -ca prop-type TSinf -ca opt-type CEM
     "returns": Numpy array of shape [1, num_train_iters * neval]
 }
 ```
-
-## Acknowledgement
-
-Huge thank to the authors of the paper for open-sourcing their [code](https://github.com/kchua/handful-of-trials/). Most of this repo is taken from the official TF implementation.
