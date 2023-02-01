@@ -16,13 +16,8 @@ For specific requirements, please take a look at the pip dependency file `requir
 Experiments for a particular environment can be run using:
 
 ```
-python mbexp.py
-    -env    ENV       (required) The name of the environment. Select from
-                                 [cartpole, reacher, pusher, halfcheetah].
+python3 mbexp.py -ca model-type PE -ca prop-type TSinf -ca opt-type CEM
 ```
-
-Results will be saved in `<logdir>/<date+time of experiment start>/`.
-Trial data will be contained in `logs.mat`, with the following contents:
 
 ```
 {
@@ -35,8 +30,6 @@ Trial data will be contained in `logs.mat`, with the following contents:
     "returns": Numpy array of shape [1, num_train_iters * neval]
 }
 ```
-
-To visualize the result, please take a look at `plotter.ipynb`
 
 ## Acknowledgement
 
