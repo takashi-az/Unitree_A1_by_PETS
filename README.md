@@ -31,3 +31,6 @@ python3 mbexp.py -ca model-type PE -ca prop-type TSinf -ca opt-type CEM
     "returns": Numpy array of shape [1, num_train_iters * neval]
 }
 ```
+
+# results
+movie.gif
