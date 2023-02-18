@@ -33,4 +33,4 @@ python3 mbexp.py -ca model-type PE -ca prop-type TSinf -ca opt-type CEM
 ```
 
 # results
-movie.gif
+![sample](movie.gif)
